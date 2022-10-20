@@ -9,10 +9,10 @@ Requires Bleak (Bluetooth LE Agnostic Klient)
     - https://bleak.readthedocs.io/en/latest/
 
 Example output:
-$ python3 continuous_ble_scanner.py
-ABCDEFGA-1234-5678-9AAB-BCC112233445: iPad AdvertisementData(local_name='...etc...})
-BCC11223-AABB-1234-1234-ABCDEFGABCDE: SmartOven AdvertisementData(local_name='...etc...})
-11223344-1111-2222-3333-444445555566: Unknown AdvertisementData(local_name='...etc...})
+    $ python3 continuous_ble_scanner.py
+    ABCDEFGA-1234-5678-9AAB-BCC112233445: iPad AdvertisementData(local_name='...etc...})
+    BCC11223-AABB-1234-1234-ABCDEFGABCDE: SmartOven AdvertisementData(local_name='...etc...})
+    11223344-1111-2222-3333-444445555566: Unknown AdvertisementData(local_name='...etc...})
 '''
 
 import asyncio
