@@ -12,4 +12,4 @@ Might work with other versions of Python and Bleak. See [Bleak Issues](https://g
 
 ## Examples
 
-* [Find all Bluetooth LE devices near me](https://github.com/protobioengineering/bleak-python-examples/static_ble_scanner.py)
+* [Find all Bluetooth LE devices near me](https://github.com/protobioengineering/bleak-python-examples/blob/main/static_ble_scanner.py)
