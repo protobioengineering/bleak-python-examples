@@ -1,12 +1,12 @@
-# Bleak Bluetooth LE Python Examples
+# Bleak Bluetooth LE Python Examples for macOS
 
-Example code for connecting to Bluetooth LE devices with Python and [Bleak](https://github.com/hbldh/bleak) (a Bluetooth LE library).
+Example code for connecting to Bluetooth LE devices with Python and [Bleak](https://github.com/hbldh/bleak) (a Bluetooth LE library) on macOS.
 
 ## Requirements
 
 * Python 3 (tested with 3.9.6)
 * [Bleak](https://github.com/hbldh/bleak) (tested with 0.18.1)
-* MacOS 10.10+
+* MacOS 12.0+
 
 Might work with other versions of Python and Bleak. See [Bleak Issues](https://github.com/hbldh/bleak/issues) for troubleshooting help.
 
