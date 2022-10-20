@@ -19,6 +19,7 @@ import asyncio
 from bleak import BleakScanner
 
 def on_device_discovery_callback(device, advertisement_data):
+    # Print details about device and the advertisement packet it sent out
     print(str(device) + ' ' + str(advertisement_data))
 
 async def main():
@@ -32,9 +33,6 @@ async def main():
     await asyncio.sleep(60.0)
     await scanner.stop()
 
-    # Print all the Bluetooth LE devices found.
-    for d in scanner.discovered_devices:
-        print(d)
 
 asyncio.run(main())
 
