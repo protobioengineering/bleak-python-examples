@@ -12,7 +12,7 @@ Might work with other versions of Python and Bleak. See [Bleak Issues](https://g
 
 ## Examples
 
-* [Quick connect to BLE device (no-frills easy script)](https://github.com/protobioengineering/bleak-python-examples/blob/main/quickstart_ble_connection.py)
+* [Quick connect to BLE device](https://github.com/protobioengineering/bleak-python-examples/blob/main/quickstart_ble_connection.py)
 * [Find all Bluetooth LE devices near me (one-time)](https://github.com/protobioengineering/bleak-python-examples/blob/main/static_ble_scanner.py)
 * [Find all Bluetooth LE devices near me (continuous)](https://github.com/protobioengineering/bleak-python-examples/blob/main/continuous_ble_scanner.py)
 * [Find a Bluetooth LE device by UUID or MAC address](https://github.com/protobioengineering/bleak-python-examples/blob/main/find_device_by_uuid_or_mac.py)

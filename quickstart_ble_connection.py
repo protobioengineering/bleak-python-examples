@@ -9,8 +9,8 @@ import asyncio
 from bleak import BleakClient, BleakScanner
 
 
-# Can be UUID or MAC address
 # Add your device's address here.
+# Can be UUID or MAC address
 address = 'ABCDEFGG-1111-2222-3333-444455556666'
 
 async def main():
