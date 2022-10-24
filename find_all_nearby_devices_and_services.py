@@ -7,7 +7,6 @@ import platform
 import sys
 
 from bleak import BleakClient, BleakScanner
-from bleak.exc import BleakError
 
 
 class textcolor:
@@ -50,8 +49,6 @@ def device_details_to_dict(raw_details):
         print(f'RSSI not found for device with the following data: {raw_details}')
 
     return dict_
-
-
 
 
 async def main():
