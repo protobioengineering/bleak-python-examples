@@ -17,4 +17,5 @@ Might work with other versions of Python and Bleak. See [Bleak Issues](https://g
 * [Find all Bluetooth LE devices near me (continuous)](https://github.com/protobioengineering/bleak-python-examples/blob/main/continuous_ble_scanner.py)
 * [Find a Bluetooth LE device by UUID or MAC address](https://github.com/protobioengineering/bleak-python-examples/blob/main/find_device_by_uuid_or_mac.py)
 * [Connect to and disconnect from a Bluetooth LE device by UUID or MAC address](https://github.com/protobioengineering/bleak-python-examples/blob/main/connect_to_ble_device_by_uuid_or_mac.py)
+* [Find all BLE devices in the area and their services/characteristics](https://github.com/protobioengineering/bleak-python-examples/blob/main/find_all_nearby_devices_and_services.py)
 
