@@ -1,6 +1,18 @@
 '''
-Scan for all BLE devices and print services and characteristics.
+Bluetooth LE device and service scanner.
+
+Scan for Bluetooth LE devices in the area, and print details
+about them and their services and characteristics.
+
+Requires Bleak (Bluetooth LE Agnostic Klient)
+    - https://github.com/hbldh/bleak
+    - https://bleak.readthedocs.io/en/latest/
+
+Output:
+    - All devices found with names, addresses, RSSI, and metadata
+    - All services from each device with UUIDs, handles, characteristics, etc.
 '''
+
 
 import asyncio
 import platform
